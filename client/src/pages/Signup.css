@@ -1,0 +1,15 @@
+.background {
+    background-image: url("../../public/assets/img/auth-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.signup-form {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 32px;
+    max-width: 400px;
+    width: 100%;
+}

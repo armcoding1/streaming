@@ -1,0 +1,21 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "anubis9878",
+    "database": "music_player",
+    "migrations": "src/migration/**/*.ts",
+    "entities": [
+      "dist/albums/entities/**/*.entity{.ts,.js}",
+      "dist/artists/entities/**/*.entity{.ts,.js}",
+      "dist/users/entities/**/*.entity{.ts,.js}",
+      "dist/songs/entities/**/*.entity{.ts,.js}",
+      "dist/playlists/entities/**/*.entity{.ts,.js}"
+    ],
+    "synchronize": true,
+    "cli": {
+        "migrationsDir": "src/migration"
+    }
+  }
+  
